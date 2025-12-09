@@ -1,3 +1,44 @@
 body {
     background-color: gray;
+
+}
+
+h1 {
+    text-align:center;
+}
+
+body.dark {
+    background: #121212;
+    color: #e8e8e8;
+}
+
+
+body.dark button {
+    border: 2px   solid #00e0e0;
+    color: aqua;
+    background-color: black;
+    
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid #333;
+    transition: 1s;
+  
+}
+
+#timer {
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.steuerungKnopf {
+    display:flex;
+    justify-content:center;
 }
