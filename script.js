@@ -45,4 +45,14 @@ resetKnopf.addEventListener("click", () => {
 
 });
 
+// Button auswählen
+const toggleDarkButton = document.getElementById("toggle-dark");
+
+// Klick-Event hinzufügen
+toggleDarkBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
+
+
+
 zeigeZeit();
